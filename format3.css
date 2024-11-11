@@ -1,0 +1,25 @@
+.studentClass {
+
+    font-size:20px;
+    border:1px solid red;
+
+}
+
+.studentClass th{
+    
+    font-size:20px;
+    border:1px red;
+    background-color: red;
+    color:white;
+}
+
+.studentClass td{
+
+    border:1px solid red;
+    
+}
+
+.courseClass {
+
+   color:red;
+}

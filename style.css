@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Parallax effect */
+.parallax{
+    background-image: url('pink2.jpg'); 
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paralax-text, .paralax-text2 {
+    font-size: 24px;
+    color: #ff4da6;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.parallax-second {
+    background-image: url('barbie.jpg');
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-text, .parallax-text2 {
+    color: white;
+    font-size: 21px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+}
+
+/* Content below parallax */
+.content {
+    padding:30px;
+    text-align: center;
+    background-color: white;
+
+}
+.content p {
+    text-align: left;
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: white;
+    margin:0;
+}
+
+.about-link a {
+    text-align: left;
+}
+
+.box {
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    color: #ff4da6;
+    
+}
+
+/* Pseudo-classes for links inside the box */
+.box a:link {
+    color: #ff66b3; /* Color for links that have not been clicked */
+    text-decoration: none; /* No underline */
+}
+.box a:hover {
+    color: red; /* Color when hovering over the link */
+    text-decoration: underline; /* Underline when hovering */
+}
+
+.box a:active {
+    color: blue; /* Color when the link is active (clicked) */
+}
+
+.box a:visited {
+    color: orange; /* Color for links that have been visited */
+}
